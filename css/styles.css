@@ -1,0 +1,13 @@
+#highlight {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    background-color: #ccff00;
+    height: 30px;
+    opacity: 0.6;
+}
+#test{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+}

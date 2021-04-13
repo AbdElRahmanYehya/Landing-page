@@ -1,3 +1,31 @@
-p:hover {
-  background-color: yellow;
+
+body {
+    background: linear-gradient(#126e82, #ccf2f4);
+}
+h1 {
+    border-bottom: 1px solid #cc1;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color: #fff;
+}
+p {
+    line-height: 1.6em;
+    color: #eee;
+}
+.landing__container {
+    padding: 1em;
+    text-align: left;
+}
+
+@media only screen and (min-width: 35em){
+    .landing__container {
+        max-width: 50em;
+        padding: 4em;
+    }
+}
+
+.landing__container:nth-of-type(even) {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right; 
 }

@@ -1,4 +1,4 @@
-
+/* Styling the body and the main header */
 body {
     background: linear-gradient(#126e82, #51c4d3);
 }
@@ -10,12 +10,16 @@ h1 {
     padding-top: 7px;
     padding-bottom: 12px;
 }
+
+
+/* Styling the sections */
 h2 {
     border-bottom: 1px solid #cc1;
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
 }
+
 p {
     line-height: 1.6em;
     color: #eee;
@@ -40,6 +44,8 @@ p {
     text-align: right; 
 }
 
+
+/* Styling the navigation menu */
 nav {
     background-color: white;
 }
@@ -49,6 +55,7 @@ li{
     color: #126e82;
     font-family: 'Oxygen', Sans-Serif;
     font-size: 35;
+    text-transform: capitalize;
 }
 
 li:hover{

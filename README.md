@@ -7,7 +7,7 @@ This web page creates dynamic navigation menu that lets you scroll to the sectio
 ## Technologies
 Bootstrap 4
 
-##Features
+## Features
 Dynamic navigation menu
 Styled viewed section while scrolling
 Clicking an item in navigation scrolls to the wanted section
